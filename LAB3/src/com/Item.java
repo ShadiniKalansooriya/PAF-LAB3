@@ -10,7 +10,7 @@ public class Item {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/paf_practical3_sampleproject","root","admin");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3309/items","root", "");
 			
 			//for testing
 			//System.out.println("Successfully connected");
